@@ -1,0 +1,14 @@
+Project -2 (Advanced Compilers class) CS 6475 Fall 2013
+  
+A small step static Analyzer
+In this project, we have created a static analyzer for a simple higher-order language. Specifically, we implemented the small-step formulation of Shivers's original 0CFA. 
+
+I have used Prof.Matt's code from his analyzers link in the class webpage.
+ Prof's code was based on A-Normal forms and I have made slight changes to make it conform to the CPS form.
+  The grammar required us to handle Halt case. 
+ To run this program, use make to compile.
+ 0cfa script takes a program and a variable. 
+ use the ./0cfa program var to run this code.
+ I have tested it against some cases after churchifying using the compile.rkt and hybridcps.rkt from Prof.Matt's blog to  generate lamdas.
+
+
